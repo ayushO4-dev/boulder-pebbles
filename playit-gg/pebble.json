@@ -1,0 +1,11 @@
+{
+  "id": "playit-gg",
+  "name": "Playit.gg",
+  "tagline": "Tunnels from playit.gg so players can reach the server",
+  "description": "Runs the Playit.gg agent, which forwards the tunnels you create on playit.gg to this machine. Sign in once and the agent serves every server with this pebble. Playit's agent runs on Linux and Windows.",
+  "author": "Boulder",
+  "version": "1.0.0",
+  "icon": "playit",
+  "category": "Networking",
+  "supports": ["vanilla", "fabric", "paper", "spigot", "forge", "neoforge"]
+}

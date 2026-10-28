@@ -1,0 +1,11 @@
+{
+  "id": "minekube-connect",
+  "name": "Minekube Connect",
+  "tagline": "A free address players can join without port forwarding",
+  "description": "Gives the server a <name>.play.minekube.net address through Minekube's Connect network. Paper and Spigot servers use Minekube's Connect plugin, other servers run behind Minekube's Gate proxy in offline mode. Can make the server private with a whitelist.",
+  "author": "Boulder",
+  "version": "1.0.0",
+  "icon": "globe",
+  "category": "Networking",
+  "supports": ["vanilla", "fabric", "paper", "spigot", "forge", "neoforge"]
+}

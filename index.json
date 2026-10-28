@@ -1,0 +1,47 @@
+{
+  "protocol": 1,
+  "pebbles": [
+    {
+      "id": "minekube-connect",
+      "name": "Minekube Connect",
+      "tagline": "A free address players can join without port forwarding",
+      "description": "Gives the server a <name>.play.minekube.net address through Minekube's Connect network. Paper and Spigot servers use Minekube's Connect plugin, other servers run behind Minekube's Gate proxy in offline mode. Can make the server private with a whitelist.",
+      "author": "Boulder",
+      "version": "1.0.0",
+      "icon": "globe",
+      "category": "Networking",
+      "supports": [
+        "vanilla",
+        "fabric",
+        "paper",
+        "spigot",
+        "forge",
+        "neoforge"
+      ],
+      "wasm": "minekube-connect/pebble.wasm",
+      "sha256": "0a13d4cac51195204a0dcdb3a5e0e83145716033486a17d4dd6922b4696f2fd3",
+      "size": 198059
+    },
+    {
+      "id": "playit-gg",
+      "name": "Playit.gg",
+      "tagline": "Tunnels from playit.gg so players can reach the server",
+      "description": "Runs the Playit.gg agent, which forwards the tunnels you create on playit.gg to this machine. Sign in once and the agent serves every server with this pebble. Playit's agent runs on Linux and Windows.",
+      "author": "Boulder",
+      "version": "1.0.0",
+      "icon": "playit",
+      "category": "Networking",
+      "supports": [
+        "vanilla",
+        "fabric",
+        "paper",
+        "spigot",
+        "forge",
+        "neoforge"
+      ],
+      "wasm": "playit-gg/pebble.wasm",
+      "sha256": "53269ffbde9a2bb92966f2ff0b3d84246627f7cc86f10e4e1c682d3a20668723",
+      "size": 152609
+    }
+  ]
+}
